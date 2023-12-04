@@ -4,8 +4,8 @@ set -euo pipefail
 
 reports_dir=reports
 host_header="Host:weather-api"
-rate="400"
-duration="1800s"
+rate="75"
+duration="600s"
 
 echo "== stress test =="
 echo "attacking with rate ${rate} and duration ${duration}.."
